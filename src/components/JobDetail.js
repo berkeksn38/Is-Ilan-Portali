@@ -87,7 +87,7 @@ const JobDetail = () => {
     <div>
       <h2 className="job-title">{job.job_title}</h2>
       <img className="job-detail-img" src={`/images/job_image.jpg`} alt={job.job_title} />
-      <p>{job.job_description}</p>
+      <p className="detail">{job.job_description}</p>
       <div className="konum-category">Konum: {job.location}</div>
       <div className="konum-category">Kategori: {job.category}</div>
       <Link className="geri-don" to="/">Geri Dön</Link>

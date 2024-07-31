@@ -55,7 +55,7 @@ body{
 }
 
 .ilan-baslik{
-  font-size: 1.5em;
+  font-size: 2.0em;
   margin-bottom: 8px;
 }
 
@@ -65,6 +65,7 @@ body{
 
 .ilan-lokasyon,
 .ilan-kategori {
+  font-size: 21px;
   font-style: italic;
   color: #555;
 }
@@ -76,20 +77,54 @@ width: 15%;
 
 .konum-category{
   margin-left: 41%;
+  font-size: 21px;
 }
 
 .job-title{
   margin-left: 40%;
+  font-size: 32px;
 }
 
 .geri-don{
   margin-left: 40%;
-  border: 5px solid #ccc;
+  border: 5px solid #e67e22;
   position: relative;
   top: 20px;
   left: 70px;
   text-decoration: none;
-  color: black;
-  border-radius: 30%;
-  background-color: white;
+  color: white;
+  border-radius: 10px;
+  background-color: #e67e22;
+}
+
+.detay {
+  background-color: #e67e22;
+
+  border: none;
+
+  border-radius: 12px;
+
+  color: white;
+
+  padding: 15px 32px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 16px;
+
+  margin: 4px 2px;
+
+  cursor: pointer;
+}
+
+.portal {
+  font-size: 39px;
+}
+
+.detail {
+  font-size: 23px;
 }

@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>İş İlan Portalı</h1>
+        <h1 className='portal' >İş İlan Portalı</h1>
         <div className="header">
           <div className="arama_kutusu">
             <input
